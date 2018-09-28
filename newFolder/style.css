@@ -1,0 +1,33 @@
+.text{
+	color: white;
+	background-color: black;
+		margin-top: -23px;
+		transition: color 200ms linear;
+		transition: background-color 3s linear
+
+}
+.text:hover{
+	color: black;
+	margin-top: -23px;
+	background-color: white;
+	transition: background-color 0.5s linear;
+
+}
+.box{
+	width: 200px;
+	padding: 10px;
+	background-color: white;
+	transition: background-color 2s linear;
+
+}
+.box:hover{
+
+	color: white;
+	background-color: black;
+	transition: background-color 0.5s linear;
+}
+.diva{
+	background-color: black;
+	height: 50px;
+	width: 100%;
+}
